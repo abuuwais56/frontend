@@ -86,7 +86,7 @@ export default function UserAspirasi() {
             <p className="text-5xl mb-3">📢</p>
             <p className="text-gray-600 font-medium">Belum ada aspirasi</p>
             <p className="text-gray-400 text-sm mt-1">Klik tombol di atas untuk menyampaikan aspirasi baru</p>
-          </div>
+          </div> 
         ) : (
           <div className="space-y-3">
             {list.map(p => (
